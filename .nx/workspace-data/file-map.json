@@ -50,36 +50,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "4969939662706623715"
-      },
-      {
-        "file": "tools/ai-migrations/@nx/eslint/23.1.0/migrate-ban-types-rule.md",
-        "hash": "902735558588092105"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "5696907900505216303"
-      },
-      {
-        "file": "tools/ai-migrations/@nx/jest/23.1.0/verify-typecheck.md",
-        "hash": "7806239505582407970"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "8868995429976997716"
-      },
-      {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "4969939662706623715"
       },
       {
         "file": "package.json",
         "hash": "18130230122261563459"
       },
       {
-        "file": "tools/ai-migrations/@nx/eslint/23.1.0/convert-to-flat-config.md",
-        "hash": "17141742502654703020"
+        "file": "package-lock.json",
+        "hash": "8868995429976997716"
+      },
+      {
+        "file": "tools/ai-migrations/@nx/jest/23.1.0/verify-typecheck.md",
+        "hash": "7806239505582407970"
       },
       {
         "file": "opencode.json",
@@ -90,8 +78,24 @@
         "hash": "6870352021923392442"
       },
       {
-        "file": "nx.json",
-        "hash": "5071761412014755931"
+        "file": "README.md",
+        "hash": "15216041450653315402"
+      },
+      {
+        "file": "tools/ai-migrations/@nx/eslint/23.1.0/convert-to-flat-config.md",
+        "hash": "17141742502654703020"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "5696907900505216303"
+      },
+      {
+        "file": "tools/ai-migrations/@nx/eslint/23.1.0/migrate-ban-types-rule.md",
+        "hash": "902735558588092105"
+      },
+      {
+        "file": "tools/ai-migrations/@nx/react/23.1.0/ai-instructions-for-react-19.md",
+        "hash": "2662681407111316691"
       },
       {
         "file": ".gitignore",
@@ -102,12 +106,8 @@
         "hash": "6927958956019882428"
       },
       {
-        "file": "README.md",
-        "hash": "18372869664704182250"
-      },
-      {
-        "file": "tools/ai-migrations/@nx/react/23.1.0/ai-instructions-for-react-19.md",
-        "hash": "2662681407111316691"
+        "file": "nx.json",
+        "hash": "5071761412014755931"
       }
     ],
     "projectFileMap": {

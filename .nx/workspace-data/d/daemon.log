@@ -17134,3 +17134,230 @@ DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Settled elaps
 [NX v24.0.0 Daemon Server] - 2026-11-05T03:24:37.937Z - [SYNC]: @nx/js:typescript-sync changes: apps/web/tsconfig.json
 [NX v24.0.0 Daemon Server] - 2026-11-05T03:24:37.938Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 11.990671000006841ms
 [NX v24.0.0 Daemon Server] - 2026-11-05T03:24:37.938Z - Time taken for 'createProjectGraphAsync' 0.07032300002174452ms
+DEBUG nx::native::watch::watcher: idle-window emitting events count=1
+DEBUG nx::native::watch::watcher:   [create] README.md
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:23.536Z - [WATCHER]: File changes detected (seq 45):
+Created:
+(none)
+Updated:
+  - README.md
+Deleted:
+(none)
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:23.536Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:23.536Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:23.536Z - [REQUEST]: README.md
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:23.536Z - [REQUEST]: 
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=5.33µs
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=5.801µs
+[plugin-client] restarting worker for "@nx/js/typescript"
+[isolated-plugin] spawned worker for "@nx/js/typescript" (pid: 41693, socket: /tmp/.nx/1000/sockets/4c1cf539/p32060-3o-8d687f3d.sock)
+[plugin-client] restarting worker for "@nx/next/plugin"
+[isolated-plugin] spawned worker for "@nx/next/plugin" (pid: 41699, socket: /tmp/.nx/1000/sockets/4c1cf539/p32060-3p-f90be6c6.sock)
+[plugin-client] restarting worker for "@nx/eslint/plugin"
+[isolated-plugin] spawned worker for "@nx/eslint/plugin" (pid: 41705, socket: /tmp/.nx/1000/sockets/4c1cf539/p32060-3q-94200624.sock)
+[plugin-client] restarting worker for "@nx/playwright/plugin"
+[isolated-plugin] spawned worker for "@nx/playwright/plugin" (pid: 41712, socket: /tmp/.nx/1000/sockets/4c1cf539/p32060-3r-79e31b88.sock)
+[plugin-client] restarting worker for "@nx/jest/plugin"
+[isolated-plugin] spawned worker for "@nx/jest/plugin" (pid: 41719, socket: /tmp/.nx/1000/sockets/4c1cf539/p32060-3s-7eab055a.sock)
+[plugin-client] restarting worker for "nx/js/dependencies-and-lockfile"
+[isolated-plugin] spawned worker for "nx/js/dependencies-and-lockfile" (pid: 41726, socket: /tmp/.nx/1000/sockets/4c1cf539/p32060-3t-b18c5f7b.sock)
+[plugin-client] restarting worker for "nx/core/package-json"
+[isolated-plugin] spawned worker for "nx/core/package-json" (pid: 41750, socket: /tmp/.nx/1000/sockets/4c1cf539/p32060-3u-bb4085b6.sock)
+[plugin-client] restarting worker for "nx/core/project-json"
+[isolated-plugin] spawned worker for "nx/core/project-json" (pid: 41776, socket: /tmp/.nx/1000/sockets/4c1cf539/p32060-3v-7e62c7ca.sock)
+[plugin-worker] "@nx/js/typescript" (pid: 41693) listening on /tmp/.nx/1000/sockets/4c1cf539/p32060-3o-8d687f3d.sock
+[isolated-plugin] connected to worker for "@nx/js/typescript" (pid: 41693)
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:23.898Z - Time taken for 'start-plugin-worker:@nx/js/typescript' 357.2398529999773ms
+Time taken for 'plugin worker 41693 code loading' 254.48166400000002ms
+[plugin-worker] "@nx/js/typescript" (pid: 41693) connected
+[plugin-worker] "@nx/next/plugin" (pid: 41699) listening on /tmp/.nx/1000/sockets/4c1cf539/p32060-3p-f90be6c6.sock
+Time taken for 'plugin worker 41699 code loading' 323.40897199999995ms
+[isolated-plugin] connected to worker for "@nx/next/plugin" (pid: 41699)
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:23.986Z - Time taken for 'start-plugin-worker:@nx/next/plugin' 420.0123330000206ms
+[plugin-worker] "@nx/next/plugin" (pid: 41699) connected
+[plugin-worker] "@nx/playwright/plugin" (pid: 41712) listening on /tmp/.nx/1000/sockets/4c1cf539/p32060-3r-79e31b88.sock
+Time taken for 'plugin worker 41712 code loading' 290.570444ms
+[plugin-worker] "@nx/eslint/plugin" (pid: 41705) listening on /tmp/.nx/1000/sockets/4c1cf539/p32060-3q-94200624.sock
+[isolated-plugin] connected to worker for "@nx/eslint/plugin" (pid: 41705)
+[isolated-plugin] connected to worker for "@nx/playwright/plugin" (pid: 41712)
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.024Z - Time taken for 'start-plugin-worker:@nx/eslint/plugin' 433.1033339999849ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.024Z - Time taken for 'start-plugin-worker:@nx/playwright/plugin' 408.49657200003276ms
+[plugin-worker] "@nx/playwright/plugin" (pid: 41712) connected
+[plugin-worker] "@nx/eslint/plugin" (pid: 41705) connected
+Time taken for 'plugin worker 41705 code loading' 339.902903ms
+[plugin-worker] "@nx/jest/plugin" (pid: 41719) listening on /tmp/.nx/1000/sockets/4c1cf539/p32060-3s-7eab055a.sock
+Time taken for 'plugin worker 41719 code loading' 320.111132ms
+[isolated-plugin] connected to worker for "@nx/jest/plugin" (pid: 41719)
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.068Z - Time taken for 'start-plugin-worker:@nx/jest/plugin' 427.18310700001894ms
+[plugin-worker] "@nx/jest/plugin" (pid: 41719) connected
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 41726) listening on /tmp/.nx/1000/sockets/4c1cf539/p32060-3t-b18c5f7b.sock
+Time taken for 'plugin worker 41726 code loading' 336.02685199999996ms
+[isolated-plugin] connected to worker for "nx/js/dependencies-and-lockfile" (pid: 41726)
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.113Z - Time taken for 'start-plugin-worker:nx/js/dependencies-and-lockfile' 444.76374699996086ms
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 41726) connected
+[plugin-worker] "nx/core/package-json" (pid: 41750) listening on /tmp/.nx/1000/sockets/4c1cf539/p32060-3u-bb4085b6.sock
+Time taken for 'plugin worker 41750 code loading' 324.516531ms
+[isolated-plugin] connected to worker for "nx/core/package-json" (pid: 41750)
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.135Z - Time taken for 'start-plugin-worker:nx/core/package-json' 436.88706999999704ms
+[plugin-worker] "nx/core/package-json" (pid: 41750) connected
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 41726) loaded successfully
+[plugin-worker] "nx/core/package-json" (pid: 41750) loaded successfully
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+Time taken for 'nx/js/dependencies-and-lockfile:createNodes' 26.091331999999966ms
+[plugin-worker] "nx/core/project-json" (pid: 41776) listening on /tmp/.nx/1000/sockets/4c1cf539/p32060-3v-7e62c7ca.sock
+Time taken for 'plugin worker 41776 code loading' 345.58044ms
+[isolated-plugin] connected to worker for "nx/core/project-json" (pid: 41776)
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.203Z - Time taken for 'start-plugin-worker:nx/core/project-json' 472.9995639999979ms
+[plugin-worker] "nx/core/project-json" (pid: 41776) connected
+[plugin-worker] "@nx/js/typescript" (pid: 41693) loaded successfully
+[plugin-worker] "nx/core/project-json" (pid: 41776) loaded successfully
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[isolated-plugin] shutting down worker for "@nx/js/typescript" after createNodes
+[plugin-worker] "@nx/next/plugin" (pid: 41699) loaded successfully
+[plugin-worker] "@nx/playwright/plugin" (pid: 41712) loaded successfully
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.393Z - Established a connection. Number of open connections: 3
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.393Z - Closed a connection. Number of open connections: 2
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.394Z - Established a connection. Number of open connections: 3
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.394Z - Established a connection. Number of open connections: 4
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.395Z - Closed a connection. Number of open connections: 3
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.394Z - [Messenger] Setting up socket listeners
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.396Z - [Messenger] listen() complete
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.396Z - Established a connection. Number of open connections: 4
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.397Z - [Messenger] Setting up socket listeners
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.399Z - [Messenger] listen() complete
+[plugin-worker] "@nx/eslint/plugin" (pid: 41705) loaded successfully
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.414Z - Established a connection. Number of open connections: 5
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.415Z - Closed a connection. Number of open connections: 4
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.416Z - Established a connection. Number of open connections: 5
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.416Z - [Messenger] Setting up socket listeners
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.417Z - [Messenger] listen() complete
+[plugin-worker] "@nx/jest/plugin" (pid: 41719) loaded successfully
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.544Z - Established a connection. Number of open connections: 6
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.545Z - Closed a connection. Number of open connections: 5
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.545Z - Established a connection. Number of open connections: 6
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.546Z - [Messenger] Setting up socket listeners
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.546Z - [Messenger] listen() complete
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.565Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.565Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.565Z - [Messenger] Message sent
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.565Z - [Messenger] Message sent
+Time taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.0751510000000053ms
+Time taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.08225500000003194ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.566Z - Received raw message of length 147
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.566Z - Received json message of type HASH_MULTI_GLOB
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=8.245µs
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.567Z - Serializing response for HASH_GLOB message in json mode
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.567Z - Responding to HASH_GLOB message
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.567Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.567Z - Done responding to the client handleHashMultiGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.567Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.567Z - Received raw message of length 127
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.567Z - Received json message of type HASH_MULTI_GLOB
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=5.04µs
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.567Z - [Messenger] Received message, length: 24
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.568Z - Serializing response for HASH_GLOB message in json mode
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.568Z - Responding to HASH_GLOB message
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.568Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.568Z - Done responding to the client handleHashMultiGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.568Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.568Z - [Messenger] Received message, length: 24
+[isolated-plugin] shutting down worker for "@nx/next/plugin" after createNodes
+[isolated-plugin] shutting down worker for "@nx/playwright/plugin" after createNodes
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.598Z - [Messenger] Sending message type: GLOB
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.598Z - [Messenger] Message sent
+Time taken for 'daemon-message-serialization-GLOB' 0.09334599999999682ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.599Z - Received raw message of length 121
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.600Z - Received json message of type GLOB
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=5.761µs
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.601Z - Serializing response for GLOB message in json mode
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.601Z - Responding to GLOB message
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.601Z - [REQUEST]: Responding to the client. handleGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.602Z - Done responding to the client handleGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.602Z - Handled json message GLOB. Handling time: 1. Response time: 1.
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.602Z - [Messenger] Received message, length: 7693
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.606Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.606Z - [Messenger] Message sent
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.606Z - Received raw message of length 597
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.607Z - Received json message of type HASH_MULTI_GLOB
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=5.731µs
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.608Z - Serializing response for HASH_GLOB message in json mode
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.608Z - Responding to HASH_GLOB message
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.608Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.609Z - Done responding to the client handleHashMultiGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.609Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 1.
+Time taken for 'GLOB round trip' 4.7682139999999436ms
+Time taken for 'deserialize daemon response - GLOB' 0.09693299999992178ms
+Time taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.10417599999993854ms
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.609Z - [Messenger] Received message, length: 137
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.609Z - Closed a connection. Number of open connections: 5
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.612Z - Closed a connection. Number of open connections: 4
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.708Z - [Messenger] Sending message type: HASH_MULTI_GLOB
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.709Z - [Messenger] Message sent
+Time taken for 'daemon-message-serialization-HASH_MULTI_GLOB' 0.1057890000001862ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.710Z - Received raw message of length 206
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.710Z - Received json message of type HASH_MULTI_GLOB
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=7.163µs
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.711Z - Serializing response for HASH_GLOB message in json mode
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.711Z - Responding to HASH_GLOB message
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.711Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.711Z - Done responding to the client handleHashMultiGlob
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.711Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:24.712Z - [Messenger] Received message, length: 47
+[isolated-plugin] shutting down worker for "@nx/jest/plugin" after createNodes
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:24.750Z - Closed a connection. Number of open connections: 3
+Time taken for 'HASH_MULTI_GLOB round trip' 3.2115479999999934ms
+Time taken for 'deserialize daemon response - HASH_MULTI_GLOB' 0.0666159999999536ms
+[isolated-plugin] shutting down worker for "@nx/eslint/plugin" after createNodes
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=5.01µs
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.570Z - Time taken for 'build-project-configs' 2019.0907460000017ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.570Z - Time taken for 'createNodes:merge' 4.6109270000015385ms
+Time taken for 'build typescript dependencies' 0.3219369999999344ms
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.600Z - [SYNC]: collect registered sync generators
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.600Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.601Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.601Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.611Z - Wrote project graph cache to /home/pranav/Desktop/ConferIQ/.nx/workspace-data/project-graph.json
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.611Z - Serializing response for PROJECT_GRAPH_UPDATED message in json mode
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.616Z - Responding to PROJECT_GRAPH_UPDATED message
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.616Z - [REQUEST]: Responding to the client. Project graph updated
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.617Z - Time taken for 'total execution time for createProjectGraph()' 34.06404999998631ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.617Z - Time taken for 'createDependencies' 27.727437999972608ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.617Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 27.575742000015453ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.617Z - Time taken for 'createMetadata' 0.011773000005632639ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.617Z - Time taken for 'serialize graph' 4.963091999990866ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.617Z - Time taken for 'write cache' 10.603500000026543ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.619Z - Done responding to the client Project graph updated
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.619Z - Handled json message PROJECT_GRAPH_UPDATED. Handling time: 10. Response time: 8.
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:25.619Z - [Messenger] Received message, length: 608573
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:25.627Z - Closed a connection. Number of open connections: 2
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:26.634Z - [Messenger] Sending message type: GET_CONTEXT_FILE_DATA
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.634Z - Established a connection. Number of open connections: 3
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:26.634Z - [Messenger] Message sent
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.634Z - Received raw message of length 80
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.634Z - Received json message of type GET_CONTEXT_FILE_DATA
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Delivered elapsed=5.571µs
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.635Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.635Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.635Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.636Z - Done responding to the client handleContextFileData
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.636Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 1.
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:26.636Z - [Messenger] Received message, length: 29871
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.636Z - Closed a connection. Number of open connections: 2
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:26.747Z - [ProjectGraphListener] Socket closed, triggering reconnection
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.748Z - Closed a connection. Number of open connections: 1
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:26.749Z - [Messenger] Setting up socket listeners
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:26.750Z - [Messenger] listen() complete
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:26.750Z - [Messenger] Sending message type: REGISTER_PROJECT_GRAPH_LISTENER
+[NX v24.0.0 Daemon Client] - 2026-11-05T03:30:26.750Z - [Messenger] Message sent
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.750Z - Established a connection. Number of open connections: 2
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.750Z - Established a connection. Number of open connections: 3
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.751Z - Closed a connection. Number of open connections: 2
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.751Z - Received raw message of length 90
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:26.751Z - Received json message of type REGISTER_PROJECT_GRAPH_LISTENER
+DEBUG nx::native::watch::watcher: flush END count=0 replies=1 mode=Settled elapsed=10.096623ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:32.012Z - Reusing in-memory cached project graph because no files changed.
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:32.012Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:32.028Z - [SYNC]: @nx/js:typescript-sync changes: apps/web/tsconfig.json
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:32.029Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 15.352004999993369ms
+[NX v24.0.0 Daemon Server] - 2026-11-05T03:30:32.029Z - Time taken for 'createProjectGraphAsync' 0.06836899998597801ms
