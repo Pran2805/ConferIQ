@@ -1,0 +1,31 @@
+> next dev
+
+[1m[38;2;173;127;168m▲ Next.js 16.4.5[39m[22m (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.109:3000
+[32m[1m✓[22m[39m Ready in 768ms
+[32m[1m✓[22m[39m Running next.config.js took 54ms
+
+ GET / [32m200[39m in 943ms[2m (next.js: 554ms, application-code: 388ms)[22m
+[32m[1m✓[22m[39m Compiled in 81ms
+ GET / [32m200[39m in 85ms[2m (next.js: 11ms, application-code: 75ms)[22m
+[32m[1m✓[22m[39m Compiled in 35ms
+ GET / [32m200[39m in 70ms[2m (next.js: 4ms, application-code: 66ms)[22m
+[32m[1m✓[22m[39m Compiled in 149ms
+ GET / [32m200[39m in 101ms[2m (next.js: 6ms, application-code: 96ms)[22m
+[32m[1m✓[22m[39m Compiled in 40ms
+ GET / [32m200[39m in 69ms[2m (next.js: 5ms, application-code: 64ms)[22m
+[32m[1m✓[22m[39m Compiled in 39ms
+[31m[1m⨯[22m[39m ReferenceError: rfce is not defined
+    at Object.eval (.next/dev/server/chunks/ssr/[root-of-the-server]__0j9t5m78-twhc._.js:3:1)
+    at module evaluation (.next/dev/server/chunks/ssr/[root-of-the-server]__19-8jk2d-z5al._.js:443:47)
+[31m[1m⨯[22m[39m ReferenceError: rfce is not defined
+    at Object.eval (.next/dev/server/chunks/ssr/[root-of-the-server]__0j9t5m78-twhc._.js:3:1)
+    at module evaluation (.next/dev/server/chunks/ssr/[root-of-the-server]__19-8jk2d-z5al._.js:443:47) {
+  page: [32m'/'[39m
+}
+[32m[1m✓[22m[39m Compiled in 5ms
+ GET / [31m500[39m in 4.9s[2m (next.js: 4.3s, application-code: 518ms)[22m
+ GET / [32m200[39m in 155ms[2m (next.js: 5ms, application-code: 150ms)[22m
+ GET / [32m200[39m in 103ms[2m (next.js: 5ms, application-code: 98ms)[22m
+^C[?25h

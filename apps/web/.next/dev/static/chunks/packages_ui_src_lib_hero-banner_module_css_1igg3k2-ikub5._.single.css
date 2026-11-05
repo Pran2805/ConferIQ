@@ -1,0 +1,56 @@
+/* [project]/packages/ui/src/lib/hero-banner.module.css [app-client] (css) */
+.hero-banner-module__oDkGqW__hero {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 1.5rem 2rem;
+  display: flex;
+}
+
+.hero-banner-module__oDkGqW__badge {
+  color: #96d1ff;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  background: #143055;
+  border: 1px solid #1e4976;
+  border-radius: 9999px;
+  padding: .3rem .9rem;
+  font-size: .75rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.hero-banner-module__oDkGqW__title {
+  color: #fff;
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.hero-banner-module__oDkGqW__subtitle {
+  color: #a3b4c8;
+  max-width: 560px;
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.hero-banner-module__oDkGqW__cta {
+  color: #fff;
+  background: #096dd9;
+  border-radius: 8px;
+  margin-top: .5rem;
+  padding: .75rem 1.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .2s;
+  display: inline-block;
+}
+
+.hero-banner-module__oDkGqW__cta:hover {
+  background: #0558b0;
+}
+
+/*# sourceMappingURL=packages_ui_src_lib_hero-banner_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,42 @@
+/* [project]/packages/ui/src/lib/feature-card.module.css [app-client] (css) */
+.feature-card-module__nD_t9W__link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.feature-card-module__nD_t9W__card {
+  background: #0d1f33;
+  border: 1px solid #1e3a55;
+  border-radius: 12px;
+  height: 100%;
+  padding: 1.5rem;
+  transition: border-color .2s, transform .2s;
+}
+
+.feature-card-module__nD_t9W__link:hover .feature-card-module__nD_t9W__card, .feature-card-module__nD_t9W__card:hover {
+  border-color: #096dd9;
+  transform: translateY(-2px);
+}
+
+.feature-card-module__nD_t9W__icon {
+  margin-bottom: .75rem;
+  font-size: 2rem;
+  display: block;
+}
+
+.feature-card-module__nD_t9W__title {
+  color: #e2eaf4;
+  margin: 0 0 .5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.feature-card-module__nD_t9W__description {
+  color: #7b95b0;
+  margin: 0;
+  font-size: .875rem;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=packages_ui_src_lib_feature-card_module_css_1igg3k2-ikub5._.single.css.map*/

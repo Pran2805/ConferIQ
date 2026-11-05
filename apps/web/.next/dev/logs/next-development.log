@@ -1,0 +1,9 @@
+{"timestamp":"00:00:02.368","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:12.950","source":"Server","level":"LOG","message":"✓ Compiled in 81ms"}
+{"timestamp":"00:00:18.450","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:00:19.562","source":"Server","level":"LOG","message":"✓ Compiled in 149ms"}
+{"timestamp":"00:00:23.182","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:00:28.091","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:00:29.726","source":"Server","level":"ERROR","message":"⨯ ReferenceError: rfce is not defined"}
+{"timestamp":"00:00:29.737","source":"Server","level":"ERROR","message":"⨯ ReferenceError: rfce is not defined"}
+{"timestamp":"00:00:29.751","source":"Server","level":"LOG","message":"✓ Compiled in 5ms"}

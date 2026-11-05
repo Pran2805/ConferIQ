@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run @nextjs-template/web:dev",
+    "startTime": "2026-11-05T03:22:21.866Z",
+    "endTime": "2026-11-05T03:23:10.090Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@nextjs-template/web:dev",
+      "target": "dev",
+      "projectName": "@nextjs-template/web",
+      "hash": "10354345196519573672",
+      "startTime": "2026-11-05T03:22:21.889Z",
+      "endTime": "2026-11-05T03:23:10.081Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

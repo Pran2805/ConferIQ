@@ -1,0 +1,27 @@
+{
+  "name": "@nextjs-template/web",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.4",
+    "@tailwindcss/vite": "^4.3.4",
+    "next": "~16.4.3",
+    "postcss": "^8.5.23",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.3.4"
+  },
+  "nx": {
+    "tags": [
+      "scope:web"
+    ],
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build",
+          "^typecheck"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,403 @@
+> next dev
+
+[1m[38;2;173;127;168m▲ Next.js 16.4.5[39m[22m (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.109:3000
+[32m[1m✓[22m[39m Ready in 738ms
+[32m[1m✓[22m[39m Running next.config.js took 50ms
+
+ GET / [32m200[39m in 1135ms[2m (next.js: 552ms, application-code: 583ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1344.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+ 
+[32m[1m✓[22m[39m Compiled in 91ms
+ GET / [32m200[39m in 125ms[2m (next.js: 14ms, application-code: 112ms)[22m
+ GET / [32m200[39m in 78ms[2m (next.js: 3ms, application-code: 75ms)[22m
+[32m[1m✓[22m[39m Compiled in 1097ms
+[32m[1m✓[22m[39m Compiled in 20ms
+ GET / [32m200[39m in 61ms[2m (next.js: 5ms, application-code: 56ms)[22m
+[32m[1m✓[22m[39m Compiled in 19ms
+ GET / [32m200[39m in 49ms[2m (next.js: 3ms, application-code: 46ms)[22m
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:20
+Error: Unterminated template
+   48 | export default function Page() {
+   49 |   return (
+>  50 |     <div className=`{styles.page}>
+      |                    ^^^^^^^^^^^^^^
+>  51 |       <header className={styles.header}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  52 |         <span className={styles.logo}>NX</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  53 |         <nav className={styles.nav}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  54 |           <a
+      | ^^^^^^^^^^^^
+>  55 |             href="https://nx.dev/docs/getting-started/intro"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  56 |             target="_blank"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  57 |             rel="noreferrer"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  58 |           >
+      | ^^^^^^^^^^^
+>  59 |             Docs
+      | ^^^^^^^^^^^^^^^^
+>  60 |           </a>
+      | ^^^^^^^^^^^^^^
+>  61 |           <a href="https://nx.dev/blog" target="_blank" rel="noreferrer">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  62 |             Blog
+      | ^^^^^^^^^^^^^^^^
+>  63 |           </a>
+      | ^^^^^^^^^^^^^^
+>  64 |           <a
+      | ^^^^^^^^^^^^
+>  65 |             href="https://cloud.nx.app/get-started"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  66 |             target="_blank"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  67 |             rel="noreferrer"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  68 |             className={styles.cloudLink}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  69 |           >
+      | ^^^^^^^^^^^
+>  70 |             Connect to Nx Cloud
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  71 |           </a>
+      | ^^^^^^^^^^^^^^
+>  72 |         </nav>
+      | ^^^^^^^^^^^^^^
+>  73 |       </header>
+      | ^^^^^^^^^^^^^^^
+>  74 |
+      | ^
+>  75 |       <main className={styles.main}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  76 |         <HeroBanner
+      | ^^^^^^^^^^^^^^^^^^^
+>  77 |           title="Nx + Next.js Starter"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  78 |           subtitle="A production-ready monorepo template with App Router, shared UI libraries, and Nx superpowers built in."
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  79 |           ctaHref="https://cloud.nx.app/get-started"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  80 |           ctaLabel="Enable Nx Cloud - Free Remote Cache"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  81 |         />
+      | ^^^^^^^^^^
+>  82 |
+      | ^
+>  83 |         <section className={styles.cloudCallout}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  84 |           <div className={styles.cloudCalloutInner}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  85 |             <span className={styles.cloudIcon}>☁️</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  86 |             <div>
+      | ^^^^^^^^^^^^^^^^^
+>  87 |               <strong>Speed up CI with Nx Cloud</strong>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  88 |               <p>
+      | ^^^^^^^^^^^^^^^^^
+>  89 |                 Remote caching, distributed task execution (DTE), and
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  90 |                 self-healing CI.{' '}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  91 |                 <a
+      | ^^^^^^^^^^^^^^^^^^
+>  92 |                   href="https://cloud.nx.app/get-started"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  93 |                   target="_blank"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  94 |                   rel="noreferrer"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  95 |                 >
+      | ^^^^^^^^^^^^^^^^^
+>  96 |                   Connect your workspace - it&apos;s free to start.
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  97 |                 </a>
+      | ^^^^^^^^^^^^^^^^^^^^
+>  98 |               </p>
+      | ^^^^^^^^^^^^^^^^^^
+>  99 |             </div>
+      | ^^^^^^^^^^^^^^^^^^
+> 100 |           </div>
+      | ^^^^^^^^^^^^^^^^
+> 101 |         </section>
+      | ^^^^^^^^^^^^^^^^^^
+> 102 |
+      | ^
+> 103 |         <section className={styles.featuresSection}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |           <h2 className={styles.sectionTitle}>What&apos;s included</h2>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 105 |           <div className={styles.featuresGrid}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 106 |             {features.map((f) => (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 107 |               <FeatureCard key={f.title} {...f} />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 108 |             ))}
+      | ^^^^^^^^^^^^^^^
+> 109 |           </div>
+      | ^^^^^^^^^^^^^^^^
+> 110 |         </section>
+      | ^^^^^^^^^^^^^^^^^^
+> 111 |
+      | ^
+> 112 |         <section className={styles.commandsSection}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 113 |           <h2 className={styles.sectionTitle}>Quick commands</h2>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 114 |           <div className={styles.commandsGrid}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 115 |             <div className={styles.commandBlock}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |               <h3>Develop</h3>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |               <pre>
+      | ^^^^^^^^^^^^^^^^^^^
+> 118 |                 <code>npx nx serve web</code>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |               </pre>
+      | ^^^^^^^^^^^^^^^^^^^^
+> 120 |             </div>
+      | ^^^^^^^^^^^^^^^^^^
+> 121 |             <div className={styles.commandBlock}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |               <h3>Build all</h3>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 123 |               <pre>
+      | ^^^^^^^^^^^^^^^^^^^
+> 124 |                 <code>npx nx run-many -t build</code>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 125 |               </pre>
+      | ^^^^^^^^^^^^^^^^^^^^
+> 126 |             </div>
+      | ^^^^^^^^^^^^^^^^^^
+> 127 |             <div className={styles.commandBlock}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 128 |               <h3>Test affected</h3>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 129 |               <pre>
+      | ^^^^^^^^^^^^^^^^^^^
+> 130 |                 <code>npx nx affected -t test</code>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 131 |               </pre>
+      | ^^^^^^^^^^^^^^^^^^^^
+> 132 |             </div>
+      | ^^^^^^^^^^^^^^^^^^
+> 133 |             <div className={styles.commandBlock}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 134 |               <h3>Visualize graph</h3>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 135 |               <pre>
+      | ^^^^^^^^^^^^^^^^^^^
+> 136 |                 <code>npx nx graph</code>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 137 |               </pre>
+      | ^^^^^^^^^^^^^^^^^^^^
+> 138 |             </div>
+      | ^^^^^^^^^^^^^^^^^^
+> 139 |           </div>
+      | ^^^^^^^^^^^^^^^^
+> 140 |         </section>
+      | ^^^^^^^^^^^^^^^^^^
+> 141 |       </main>
+      | ^^^^^^^^^^^^^
+> 142 |
+      | ^
+> 143 |       <footer className={styles.footer}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 144 |         <p>
+      | ^^^^^^^^^^^
+> 145 |           Built with{' '}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^
+> 146 |           <a href="https://nx.dev" target="_blank" rel="noreferrer">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 147 |             Nx
+      | ^^^^^^^^^^^^^^
+> 148 |           </a>{' '}
+      | ^^^^^^^^^^^^^^^^^^^
+> 149 |           and{' '}
+      | ^^^^^^^^^^^^^^^^^^
+> 150 |           <a href="https://nextjs.org" target="_blank" rel="noreferrer">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 151 |             Next.js
+      | ^^^^^^^^^^^^^^^^^^^
+> 152 |           </a>
+      | ^^^^^^^^^^^^^^
+> 153 |         </p>
+      | ^^^^^^^^^^^^
+> 154 |       </footer>
+      | ^^^^^^^^^^^^^^^
+> 155 |     </div>
+      | ^^^^^^^^^^
+> 156 |   );
+      | ^^^^
+> 157 | }
+      | ^
+> 158 |
+      | ^
+
+Parsing ecmascript source code failed 
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:20
+Error: JSX value should be either an expression or a quoted JSX text
+  48 | export default function Page() {
+  49 |   return (
+> 50 |     <div className=`${styles.page}>
+     |                    ^^^
+  51 |       <header className={styles.header}>
+  52 |         <span className={styles.logo}>NX</span>
+  53 |         <nav className={styles.nav}>
+
+Parsing ecmascript source code failed 
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:20
+Error: JSX value should be either an expression or a quoted JSX text
+  48 | export default function Page() {
+  49 |   return (
+> 50 |     <div className=`${styles.page}``>
+     |                    ^^^
+  51 |       <header className={styles.header}>
+  52 |         <span className={styles.logo}>NX</span>
+  53 |         <nav className={styles.nav}>
+
+Parsing ecmascript source code failed 
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:20
+Error: JSX value should be either an expression or a quoted JSX text
+  48 | export default function Page() {
+  49 |   return (
+> 50 |     <div className=`${styles.page}``>
+     |                    ^^^
+  51 |       <header className={styles.header}>
+  52 |         <span className={styles.logo}>NX</span>
+  53 |         <nav className={styles.nav}>
+
+Parsing ecmascript source code failed 
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:20
+Error: JSX value should be either an expression or a quoted JSX text
+  48 | export default function Page() {
+  49 |   return (
+> 50 |     <div className=`${styles.page}`>
+     |                    ^^^
+  51 |       <header className={styles.header}>
+  52 |         <span className={styles.logo}>NX</span>
+  53 |         <nav className={styles.nav}>
+
+Parsing ecmascript source code failed 
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:20
+Error: JSX value should be either an expression or a quoted JSX text
+  48 | export default function Page() {
+  49 |   return (
+> 50 |     <div className=`${styles.page} `>
+     |                    ^^^
+  51 |       <header className={styles.header}>
+  52 |         <span className={styles.logo}>NX</span>
+  53 |         <nav className={styles.nav}>
+
+Parsing ecmascript source code failed 
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:20
+Error: JSX value should be either an expression or a quoted JSX text
+  48 | export default function Page() {
+  49 |   return (
+> 50 |     <div className=`${styles.page} `"">
+     |                    ^^^
+  51 |       <header className={styles.header}>
+  52 |         <span className={styles.logo}>NX</span>
+  53 |         <nav className={styles.nav}>
+
+Parsing ecmascript source code failed 
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:22
+Error: Unexpected token `template head`. Expected jsx identifier
+  48 | export default function Page() {
+  49 |   return (
+> 50 |     <div className=""`${styles.page} `"">
+     |                      ^^^
+  51 |       <header className={styles.header}>
+  52 |         <span className={styles.logo}>NX</span>
+  53 |         <nav className={styles.nav}>
+
+Parsing ecmascript source code failed 
+[36m[browser][39m ./apps/web/src/app/page.tsx:50:39
+Error: Unterminated string constant
+  48 | export default function Page() {
+  49 |   return (
+> 50 |     <div className="`${styles.page} `"">
+     |                                       ^^
+  51 |       <header className={styles.header}>
+  52 |         <span className={styles.logo}>NX</span>
+  53 |         <nav className={styles.nav}>
+
+Parsing ecmascript source code failed 
+[32m[1m✓[22m[39m Compiled in 11ms
+ GET / [32m200[39m in 46ms[2m (next.js: 3ms, application-code: 43ms)[22m
+[32m[1m✓[22m[39m Compiled in 13ms
+ GET / [32m200[39m in 55ms[2m (next.js: 3ms, application-code: 52ms)[22m
+[32m[1m✓[22m[39m Compiled in 13ms
+ GET / [32m200[39m in 49ms[2m (next.js: 3ms, application-code: 45ms)[22m
+[32m[1m✓[22m[39m Compiled in 12ms
+ GET / [32m200[39m in 49ms[2m (next.js: 5ms, application-code: 44ms)[22m
+[32m[1m✓[22m[39m Compiled in 11ms
+ GET / [32m200[39m in 98ms[2m (next.js: 5ms, application-code: 93ms)[22m
+[32m[1m✓[22m[39m Compiled in 13ms
+ GET / [32m200[39m in 51ms[2m (next.js: 3ms, application-code: 48ms)[22m
+[32m[1m✓[22m[39m Compiled in 11ms
+ GET / [32m200[39m in 68ms[2m (next.js: 4ms, application-code: 64ms)[22m
+[33m[1m⚠[22m[39m Found a change in next.config.js. Restarting the server to apply the changes...
+[1m[38;2;173;127;168m▲ Next.js 16.4.5[39m[22m (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.109:3000
+[32m[1m✓[22m[39m Ready in 993ms
+[32m[1m✓[22m[39m Running next.config.js took 47ms
+
+ GET / [32m200[39m in 1001ms[2m (next.js: 502ms, application-code: 499ms)[22m
+[33m[1m⚠[22m[39m Found a change in next.config.js. Restarting the server to apply the changes...
+[1m[38;2;173;127;168m▲ Next.js 16.4.5[39m[22m (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.109:3000
+[32m[1m✓[22m[39m Ready in 820ms
+[32m[1m✓[22m[39m Running next.config.js took 51ms
+
+ GET / [32m200[39m in 947ms[2m (next.js: 509ms, application-code: 438ms)[22m
+[33m[1m⚠[22m[39m Found a change in next.config.js. Restarting the server to apply the changes...
+[1m[38;2;173;127;168m▲ Next.js 16.4.5[39m[22m (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.109:3000
+[32m[1m✓[22m[39m Ready in 958ms
+[31m[1m⨯[22m[39m Failed to load next.config.js, see more info here https://nextjs.org/docs/messages/next-config-error
+ReferenceError: pl is not defined
+    at Object.<anonymous> (next.config.js:10:5)
+[?25h

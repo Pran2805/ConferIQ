@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/packages/ui/src/lib/hero-banner.module.css"],"sourcesContent":[".hero {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  padding: 3rem 1.5rem 2rem;\n  gap: 1rem;\n}\n\n.badge {\n  display: inline-block;\n  background: #143055;\n  color: #96d1ff;\n  font-size: 0.75rem;\n  font-weight: 600;\n  letter-spacing: 0.08em;\n  text-transform: uppercase;\n  padding: 0.3rem 0.9rem;\n  border-radius: 9999px;\n  border: 1px solid #1e4976;\n}\n\n.title {\n  font-size: clamp(2rem, 5vw, 3.5rem);\n  font-weight: 800;\n  line-height: 1.1;\n  margin: 0;\n  color: #fff;\n}\n\n.subtitle {\n  font-size: 1.125rem;\n  color: #a3b4c8;\n  max-width: 560px;\n  margin: 0;\n  line-height: 1.6;\n}\n\n.cta {\n  display: inline-block;\n  margin-top: 0.5rem;\n  padding: 0.75rem 1.75rem;\n  background: #096dd9;\n  color: #fff;\n  font-weight: 600;\n  border-radius: 8px;\n  text-decoration: none;\n  transition: background 0.2s;\n}\n\n.cta:hover {\n  background: #0558b0;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;;;;;;;;AAaA;;;;;;;;AAQA;;;;;;;;AAQA;;;;;;;;;;;;AAYA"}}]
+}
