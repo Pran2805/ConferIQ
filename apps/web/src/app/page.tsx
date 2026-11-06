@@ -1,8 +1,11 @@
+import { ModeToggle } from '@/components/components/toggle-mode-button'
 import React from 'react'
 
 function page() {
   return (
-    <div>page</div>
+    <div>
+      <ModeToggle />
+    </div>
   )
 }
 
