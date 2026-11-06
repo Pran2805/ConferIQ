@@ -50,36 +50,52 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "4969939662706623715"
-      },
-      {
-        "file": "package.json",
-        "hash": "18130230122261563459"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "8868995429976997716"
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
       },
       {
         "file": "tools/ai-migrations/@nx/jest/23.1.0/verify-typecheck.md",
         "hash": "7806239505582407970"
       },
       {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "package.json",
+        "hash": "18130230122261563459"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5071761412014755931"
+      },
+      {
         "file": "opencode.json",
         "hash": "8969569099983068167"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
+        "file": "eslint.config.mjs",
+        "hash": "6927958956019882428"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
       },
       {
         "file": "README.md",
         "hash": "15216041450653315402"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3381539276833545776"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "4969939662706623715"
+      },
+      {
+        "file": "tools/ai-migrations/@nx/react/23.1.0/ai-instructions-for-react-19.md",
+        "hash": "2662681407111316691"
       },
       {
         "file": "tools/ai-migrations/@nx/eslint/23.1.0/convert-to-flat-config.md",
@@ -92,127 +108,13 @@
       {
         "file": "tools/ai-migrations/@nx/eslint/23.1.0/migrate-ban-types-rule.md",
         "hash": "902735558588092105"
-      },
-      {
-        "file": "tools/ai-migrations/@nx/react/23.1.0/ai-instructions-for-react-19.md",
-        "hash": "2662681407111316691"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "6927958956019882428"
-      },
-      {
-        "file": "nx.json",
-        "hash": "5071761412014755931"
       }
     ],
     "projectFileMap": {
-      "@nextjs-template/web-e2e": [
-        {
-          "file": "apps/web-e2e/eslint.config.mjs",
-          "hash": "1172734138943286526",
-          "deps": [
-            "npm:eslint-plugin-playwright"
-          ]
-        },
-        {
-          "file": "apps/web-e2e/package.json",
-          "hash": "18431296450906444081"
-        },
-        {
-          "file": "apps/web-e2e/playwright.config.mts",
-          "hash": "17226933003990807159",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
-        },
-        {
-          "file": "apps/web-e2e/src/example.spec.ts",
-          "hash": "13779871506473034803",
-          "deps": [
-            "npm:@playwright/test"
-          ]
-        },
-        {
-          "file": "apps/web-e2e/tsconfig.json",
-          "hash": "17253431543311312377"
-        }
-      ],
-      "@nextjs-template/ui": [
-        {
-          "file": "packages/ui/.babelrc",
-          "hash": "2946678488919325452"
-        },
-        {
-          "file": "packages/ui/README.md",
-          "hash": "6723120534749510390"
-        },
-        {
-          "file": "packages/ui/jest.config.cts",
-          "hash": "10057306125454633098"
-        },
-        {
-          "file": "packages/ui/package.json",
-          "hash": "16038175260508636502"
-        },
-        {
-          "file": "packages/ui/src/index.ts",
-          "hash": "14818093420450784594"
-        },
-        {
-          "file": "packages/ui/src/lib/feature-card.module.css",
-          "hash": "16685757780176175637"
-        },
-        {
-          "file": "packages/ui/src/lib/feature-card.tsx",
-          "hash": "14598822323776923462"
-        },
-        {
-          "file": "packages/ui/src/lib/hero-banner.module.css",
-          "hash": "4400488297637351700"
-        },
-        {
-          "file": "packages/ui/src/lib/hero-banner.tsx",
-          "hash": "362210248336871164"
-        },
-        {
-          "file": "packages/ui/src/lib/ui.module.css",
-          "hash": "125145030238681982"
-        },
-        {
-          "file": "packages/ui/src/lib/ui.spec.tsx",
-          "hash": "11775362572980081225",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "packages/ui/src/lib/ui.tsx",
-          "hash": "5392858560548558545"
-        },
-        {
-          "file": "packages/ui/tsconfig.json",
-          "hash": "1138660533399177677"
-        },
-        {
-          "file": "packages/ui/tsconfig.lib.json",
-          "hash": "4954703335201594126"
-        },
-        {
-          "file": "packages/ui/tsconfig.spec.json",
-          "hash": "5324642384920426034"
-        }
-      ],
       "@nextjs-template/web": [
         {
           "file": "apps/web/.next/dev/build-manifest.json",
-          "hash": "6658864413027784224"
+          "hash": "8353958389045895156"
         },
         {
           "file": "apps/web/.next/dev/build/chunks/[root-of-the-server]__0fy95ldpe93jd._.js",
@@ -279,38 +181,6 @@
           "hash": "1389868326933519382"
         },
         {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000014.sst",
-          "hash": "8045360780337802590"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000015.meta",
-          "hash": "7880055180448024273"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000027.sst",
-          "hash": "16774533423058893730"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000028.meta",
-          "hash": "16798754971531973888"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000035.sst",
-          "hash": "13612571192576616090"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000036.meta",
-          "hash": "16881223556388933034"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000043.sst",
-          "hash": "12590111917008412339"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000044.meta",
-          "hash": "17496462471189655464"
-        },
-        {
           "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000048.sst",
           "hash": "8872015026269102517"
         },
@@ -319,52 +189,196 @@
           "hash": "9939155410199282199"
         },
         {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000050.sst",
-          "hash": "1648527179275437671"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000051.sst",
-          "hash": "13144529315479511173"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000052.sst",
-          "hash": "2113123839316417092"
-        },
-        {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000053.sst",
-          "hash": "8632260754443092394"
-        },
-        {
           "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000054.meta",
           "hash": "16209976081325869917"
         },
         {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000055.meta",
-          "hash": "8494453969753834316"
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000059.sst",
+          "hash": "13440730785769080365"
         },
         {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000056.meta",
-          "hash": "3226702440428406988"
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000063.meta",
+          "hash": "1390197949887655589"
         },
         {
-          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000057.del",
-          "hash": "2577883378425420136"
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000067.sst",
+          "hash": "1050565453783640733"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000071.meta",
+          "hash": "6546561530925453452"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000079.sst",
+          "hash": "12702399356172373466"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000083.meta",
+          "hash": "5338490246296668812"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000086.sst",
+          "hash": "16572008593778802575"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000087.meta",
+          "hash": "5060851821778445629"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000088.sst",
+          "hash": "8708564861557147388"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000089.sst",
+          "hash": "13786537446188592538"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000090.meta",
+          "hash": "14249510185987987641"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000092.sst",
+          "hash": "7266329371103990002"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000093.sst",
+          "hash": "12232712013532167817"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000095.sst",
+          "hash": "4862996953919804896"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000096.meta",
+          "hash": "15950398547196600801"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000097.meta",
+          "hash": "1762749588872304635"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000099.meta",
+          "hash": "1656966587474852728"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000100.sst",
+          "hash": "11669407963787297063"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000101.sst",
+          "hash": "15030819089690025644"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000103.sst",
+          "hash": "14196070095441113742"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000104.meta",
+          "hash": "111800337736452949"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000105.meta",
+          "hash": "5028136972816728272"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000106.meta",
+          "hash": "11964282122077339542"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000108.sst",
+          "hash": "6353386777582437858"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000109.sst",
+          "hash": "15625464640300277958"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000110.meta",
+          "hash": "17294345208012336097"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000111.del",
+          "hash": "2568099620321276030"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000113.sst",
+          "hash": "7427968131723425618"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000114.sst",
+          "hash": "8510908666504947057"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000115.sst",
+          "hash": "2300322456991726190"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000116.meta",
+          "hash": "7363766549912468011"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000118.meta",
+          "hash": "11906439962161306872"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000119.meta",
+          "hash": "11880918153503017204"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000121.sst",
+          "hash": "4921527099391463314"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000122.sst",
+          "hash": "16627613361084779338"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000123.sst",
+          "hash": "614556302110920658"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000124.meta",
+          "hash": "339921664267214511"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000125.meta",
+          "hash": "6025178312951797323"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000126.meta",
+          "hash": "12315854706248076149"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000128.sst",
+          "hash": "7883479864773532567"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000129.meta",
+          "hash": "18411086539718346964"
+        },
+        {
+          "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/00000130.del",
+          "hash": "3358974833620298562"
         },
         {
           "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/CURRENT",
-          "hash": "17757731986780828744"
+          "hash": "13031596910475499854"
         },
         {
           "file": "apps/web/.next/dev/cache/turbopack/v16.4.5-4e5335a0/LOG",
-          "hash": "15163074883827461208"
+          "hash": "6926733849386349598"
         },
         {
           "file": "apps/web/.next/dev/fallback-build-manifest.json",
-          "hash": "17796827782034253565"
+          "hash": "16524168933018920340"
+        },
+        {
+          "file": "apps/web/.next/dev/lock",
+          "hash": "7894398410369217381"
         },
         {
           "file": "apps/web/.next/dev/logs/next-development.log",
-          "hash": "12591876311435431033"
+          "hash": "3598664158272378410"
         },
         {
           "file": "apps/web/.next/dev/package.json",
@@ -383,8 +397,44 @@
           "hash": "6045270427439857966"
         },
         {
+          "file": "apps/web/.next/dev/server/app/_not-found/page.js",
+          "hash": "11211630109537645447"
+        },
+        {
+          "file": "apps/web/.next/dev/server/app/_not-found/page.js.map",
+          "hash": "9770666782172617948"
+        },
+        {
+          "file": "apps/web/.next/dev/server/app/_not-found/page/app-paths-manifest.json",
+          "hash": "14249713551344538762"
+        },
+        {
+          "file": "apps/web/.next/dev/server/app/_not-found/page/build-manifest.json",
+          "hash": "15357379874089786498"
+        },
+        {
+          "file": "apps/web/.next/dev/server/app/_not-found/page/client-components-ssr.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/web/.next/dev/server/app/_not-found/page/next-font-manifest.json",
+          "hash": "3179516789511337154"
+        },
+        {
+          "file": "apps/web/.next/dev/server/app/_not-found/page/react-loadable-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/web/.next/dev/server/app/_not-found/page/server-reference-manifest.json",
+          "hash": "8204496101908613432"
+        },
+        {
+          "file": "apps/web/.next/dev/server/app/_not-found/page_client-reference-manifest.js",
+          "hash": "4308936476678838327"
+        },
+        {
           "file": "apps/web/.next/dev/server/app/page.js",
-          "hash": "11457397534249609354"
+          "hash": "12454913775838372243"
         },
         {
           "file": "apps/web/.next/dev/server/app/page.js.map",
@@ -404,7 +454,7 @@
         },
         {
           "file": "apps/web/.next/dev/server/app/page/next-font-manifest.json",
-          "hash": "8927915864298715861"
+          "hash": "16362564479581182580"
         },
         {
           "file": "apps/web/.next/dev/server/app/page/react-loadable-manifest.json",
@@ -416,7 +466,7 @@
         },
         {
           "file": "apps/web/.next/dev/server/app/page_client-reference-manifest.js",
-          "hash": "18088144084244308163"
+          "hash": "16160578906477008803"
         },
         {
           "file": "apps/web/.next/dev/server/chunks/ssr/[externals]__10y2j2aka8e1v._.js",
@@ -464,15 +514,64 @@
           "hash": "9770666782172617948"
         },
         {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[externals]_next_dist_shared_lib_no-fallback-error_external_0r3u29kz7xt8e.js",
+          "hash": "12021892331387848153",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[externals]_next_dist_shared_lib_no-fallback-error_external_0r3u29kz7xt8e.js.map",
+          "hash": "9770666782172617948"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__00cxdi5s2ffg7._.js",
+          "hash": "3477122673128210130"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__00cxdi5s2ffg7._.js.map",
+          "hash": "11845405519409072223"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0aws_6pfqoxjf._.js",
+          "hash": "5743249060320313592",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0aws_6pfqoxjf._.js.map",
+          "hash": "17288691522806117734"
+        },
+        {
           "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0j9t5m78-twhc._.js",
-          "hash": "3105830725323848713",
+          "hash": "4661415536481623794",
           "deps": [
             "npm:next"
           ]
         },
         {
           "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0j9t5m78-twhc._.js.map",
-          "hash": "5372377323353938282"
+          "hash": "9770666782172617948"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__16whzclizj_yq._.js",
+          "hash": "15252574112933690657"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__16whzclizj_yq._.js.map",
+          "hash": "15738828192566835070"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__18c0fbx5daqkq._.js",
+          "hash": "8135412159585413386",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__18c0fbx5daqkq._.js.map",
+          "hash": "4421549685279290191"
         },
         {
           "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__19-8jk2d-z5al._.js",
@@ -497,6 +596,25 @@
           "hash": "5796265665715952386"
         },
         {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1h8c0tnaajkmi._.js",
+          "hash": "13357886263016559539"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1h8c0tnaajkmi._.js.map",
+          "hash": "3524148699231586960"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1lxjy1nk578bj._.js",
+          "hash": "5499164624905601654",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1lxjy1nk578bj._.js.map",
+          "hash": "17689328624272647435"
+        },
+        {
           "file": "apps/web/.next/dev/server/chunks/ssr/[turbopack]_runtime.js",
           "hash": "7469515009556724320"
         },
@@ -513,12 +631,100 @@
           "hash": "9678364376888749566"
         },
         {
+          "file": "apps/web/.next/dev/server/chunks/ssr/apps_web__next-internal_server_app__not-found_page_actions_0iqyci7_6a_s1.js",
+          "hash": "2683561271752448420"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/apps_web__next-internal_server_app__not-found_page_actions_0iqyci7_6a_s1.js.map",
+          "hash": "17703319750160141747"
+        },
+        {
           "file": "apps/web/.next/dev/server/chunks/ssr/apps_web__next-internal_server_app_page_actions_1agtzgh5rpndk.js",
           "hash": "9931765469326696170"
         },
         {
           "file": "apps/web/.next/dev/server/chunks/ssr/apps_web__next-internal_server_app_page_actions_1agtzgh5rpndk.js.map",
           "hash": "17703319750160141747"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/apps_web_src_components_1zd1n0ue-5l3w._.js",
+          "hash": "1075366405190940293"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/apps_web_src_components_1zd1n0ue-5l3w._.js.map",
+          "hash": "11911234050086293271"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_05r71y51qebvx._.js",
+          "hash": "11819320548700124090"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_05r71y51qebvx._.js.map",
+          "hash": "16430947453784128165"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_0hz3zysuxy7tr._.js",
+          "hash": "1737018149919788486"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_0hz3zysuxy7tr._.js.map",
+          "hash": "11553182709542703015"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_17-f7cyao1yk0._.js",
+          "hash": "14564995009802514445"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_17-f7cyao1yk0._.js.map",
+          "hash": "616549446609540736"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_1queb15uo9k7g._.js",
+          "hash": "12716548898769005971"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_1queb15uo9k7g._.js.map",
+          "hash": "8064617444271851900"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_1fhkwx7r6d-c0._.js",
+          "hash": "9562153055451608001"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_1fhkwx7r6d-c0._.js.map",
+          "hash": "2716107064692590514"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_floating-ui-react_11er02muh81m7._.js",
+          "hash": "4132959218867129415"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_floating-ui-react_11er02muh81m7._.js.map",
+          "hash": "677763278907372036"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_internals_1om2dx8v17b96._.js",
+          "hash": "6406172865118479246"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_internals_1om2dx8v17b96._.js.map",
+          "hash": "7462534663676138119"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_menu_037mfj7bi4dxz._.js",
+          "hash": "3711218057048552949"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_menu_037mfj7bi4dxz._.js.map",
+          "hash": "15928577370034402002"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_utils_0_ktatvr3o-gs._.js",
+          "hash": "5208540601738368380"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_@base-ui_react_utils_0_ktatvr3o-gs._.js.map",
+          "hash": "15274004650993409218"
         },
         {
           "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_next_0_j-acxg5_gmw._.js",
@@ -551,6 +757,14 @@
         {
           "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_next_1ls__uf648hkp._.js.map",
           "hash": "7062460214971557128"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_next_dist_0xf7i1qsca2xm._.js",
+          "hash": "15367534753178408178"
+        },
+        {
+          "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_next_dist_0xf7i1qsca2xm._.js.map",
+          "hash": "15442662649001035586"
         },
         {
           "file": "apps/web/.next/dev/server/chunks/ssr/node_modules_next_dist_1_nmu4l88he6f._.js",
@@ -654,7 +868,7 @@
         },
         {
           "file": "apps/web/.next/dev/server/middleware-build-manifest.js",
-          "hash": "6093183143279410479"
+          "hash": "11375861417594657912"
         },
         {
           "file": "apps/web/.next/dev/server/middleware-manifest.json",
@@ -662,15 +876,15 @@
         },
         {
           "file": "apps/web/.next/dev/server/next-font-manifest.js",
-          "hash": "548113336174728129"
+          "hash": "1477550350971863949"
         },
         {
           "file": "apps/web/.next/dev/server/next-font-manifest.json",
-          "hash": "4081916677034603907"
+          "hash": "11635920943685884266"
         },
         {
           "file": "apps/web/.next/dev/server/pages-manifest.json",
-          "hash": "14818178810240436900"
+          "hash": "1389868326933519382"
         },
         {
           "file": "apps/web/.next/dev/server/pages/_app.js",
@@ -750,7 +964,7 @@
         },
         {
           "file": "apps/web/.next/dev/server/preview-props.json",
-          "hash": "2306902525724067190"
+          "hash": "11531029070711120551"
         },
         {
           "file": "apps/web/.next/dev/server/server-reference-manifest.js",
@@ -801,12 +1015,60 @@
           "hash": "13279888529794692520"
         },
         {
+          "file": "apps/web/.next/dev/static/chunks/[next]_internal_font_google_0-fue30au0sg4._.css",
+          "hash": "16052936605821022943"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[next]_internal_font_google_0-fue30au0sg4._.css.map",
+          "hash": "337282139295121162"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[next]_internal_font_google_geist_da832ead_module_css_1igg3k2-ikub5._.single.css",
+          "hash": "4539640095249753888"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[next]_internal_font_google_geist_da832ead_module_css_1igg3k2-ikub5._.single.css.map",
+          "hash": "17117404681013002957"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[next]_internal_font_google_inter_dd475d0c_module_css_1igg3k2-ikub5._.single.css",
+          "hash": "15222585399583684734"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[next]_internal_font_google_inter_dd475d0c_module_css_1igg3k2-ikub5._.single.css.map",
+          "hash": "7773194064701571167"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[next]_internal_font_google_jetbrains_mono_9a7616cc_module_css_1igg3k2-ikub5._.single.css",
+          "hash": "6660822868489200332"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[next]_internal_font_google_jetbrains_mono_9a7616cc_module_css_1igg3k2-ikub5._.single.css.map",
+          "hash": "10859363381610126048"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[root-of-the-server]__0gv-xyht90tiz._.css",
+          "hash": "2126976376306943766"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[root-of-the-server]__0gv-xyht90tiz._.css.map",
+          "hash": "15031853838079090193"
+        },
+        {
           "file": "apps/web/.next/dev/static/chunks/[root-of-the-server]__0nu-1gmnouzp9._.js",
           "hash": "3815819579888258909"
         },
         {
           "file": "apps/web/.next/dev/static/chunks/[root-of-the-server]__0nu-1gmnouzp9._.js.map",
           "hash": "14614434990395393111"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[root-of-the-server]__0sso0wwfig9ub._.css",
+          "hash": "3742886703180089524"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/[root-of-the-server]__0sso0wwfig9ub._.css.map",
+          "hash": "8927031091309809997"
         },
         {
           "file": "apps/web/.next/dev/static/chunks/[root-of-the-server]__0v4f-fblfy04_._.js",
@@ -837,8 +1099,20 @@
           "hash": "10980675063695317285"
         },
         {
+          "file": "apps/web/.next/dev/static/chunks/_1nzy3i95xy4s8._.js",
+          "hash": "6074598736404025054"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/_1nzy3i95xy4s8._.js.map",
+          "hash": "15414061294095169369"
+        },
+        {
           "file": "apps/web/.next/dev/static/chunks/apps_web_03e2prkf6mefh._.js.map",
           "hash": "4037101738397014439"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/apps_web_18x7jxupx5rou._.js",
+          "hash": "14470291686221426235"
         },
         {
           "file": "apps/web/.next/dev/static/chunks/apps_web_1anvha4rlo79g._.js",
@@ -846,7 +1120,7 @@
         },
         {
           "file": "apps/web/.next/dev/static/chunks/apps_web_219uq1sj0q91c._.js",
-          "hash": "7244153858265093003"
+          "hash": "3884701555354669627"
         },
         {
           "file": "apps/web/.next/dev/static/chunks/apps_web_pages__app_0du2_q-cjzmdk._.js",
@@ -866,11 +1140,19 @@
         },
         {
           "file": "apps/web/.next/dev/static/chunks/apps_web_src_app_global_0iwkbkvogfu64.css",
-          "hash": "11623283553126895829"
+          "hash": "5918758796570763376"
         },
         {
           "file": "apps/web/.next/dev/static/chunks/apps_web_src_app_global_0iwkbkvogfu64.css.map",
-          "hash": "18270968901697201096"
+          "hash": "5489692150236801797"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/apps_web_src_app_global_css_1igg3k2-ikub5._.single.css",
+          "hash": "11359278286097166544"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/apps_web_src_app_global_css_1igg3k2-ikub5._.single.css.map",
+          "hash": "12981648514177384052"
         },
         {
           "file": "apps/web/.next/dev/static/chunks/apps_web_src_app_page_module_css_1igg3k2-ikub5._.single.css",
@@ -879,6 +1161,30 @@
         {
           "file": "apps/web/.next/dev/static/chunks/apps_web_src_app_page_module_css_1igg3k2-ikub5._.single.css.map",
           "hash": "16461137232532914618"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/apps_web_src_components_0xvl4a1xbr14l._.js",
+          "hash": "1519266199152290542"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/apps_web_src_components_0xvl4a1xbr14l._.js.map",
+          "hash": "9302820190343433269"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_0l-uhv0v-vlsw._.js",
+          "hash": "14460864662328937018"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_0l-uhv0v-vlsw._.js.map",
+          "hash": "14189290006937089249"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_1mbvcoovymjxv._.js",
+          "hash": "17069419617235016112"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_1mbvcoovymjxv._.js.map",
+          "hash": "15077874783131906241"
         },
         {
           "file": "apps/web/.next/dev/static/chunks/node_modules_1pvxcj07t19tl._.js",
@@ -895,6 +1201,46 @@
         {
           "file": "apps/web/.next/dev/static/chunks/node_modules_1u6sn6yvk-je4._.js.map",
           "hash": "16274768078302062221"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_058aiuk5tdf72._.js",
+          "hash": "14507798640983460872"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_058aiuk5tdf72._.js.map",
+          "hash": "14019231041465100462"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_floating-ui-react_0qab42bqxo2vp._.js",
+          "hash": "16381452486424180488"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_floating-ui-react_0qab42bqxo2vp._.js.map",
+          "hash": "968933895194489273"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_internals_0alw7zdpydpbf._.js",
+          "hash": "15586053718577697560"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_internals_0alw7zdpydpbf._.js.map",
+          "hash": "186591495086004798"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_menu_0xddncbrb9ljj._.js",
+          "hash": "13520101929117881491"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_menu_0xddncbrb9ljj._.js.map",
+          "hash": "4337068237641288676"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_utils_0zu125wzph3co._.js",
+          "hash": "9996235343838487343"
+        },
+        {
+          "file": "apps/web/.next/dev/static/chunks/node_modules_@base-ui_react_utils_0zu125wzph3co._.js.map",
+          "hash": "9225959577625914335"
         },
         {
           "file": "apps/web/.next/dev/static/chunks/node_modules_next_app_0yrdk3r5ni6li.js",
@@ -1110,7 +1456,7 @@
         },
         {
           "file": "apps/web/.next/dev/static/development/_buildManifest.js",
-          "hash": "9614425678378974737"
+          "hash": "1978154124490132800"
         },
         {
           "file": "apps/web/.next/dev/static/development/_clientMiddlewareManifest.js",
@@ -1121,8 +1467,80 @@
           "hash": "17018243955171961484"
         },
         {
+          "file": "apps/web/.next/dev/static/media/07935285219a259d-s.1qq4vpdcun5oj.woff2",
+          "hash": "3389092000906816255"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2",
+          "hash": "17280332816367325500"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/258bd0ab5fdd762a-s.2f7nqdagzwx2-.woff2",
+          "hash": "6388880386865003843"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/2fb76073e23fd9e4-s.3lvt2whj97whp.woff2",
+          "hash": "5671755480058202880"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/44e0cb21b0d052b7-s.0bp8oijd_gu96.woff2",
+          "hash": "2352603858964690534"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/45462fd7b7c12654-s.0k62hbripvv8p.woff2",
+          "hash": "13559920167712985880"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/46a9e2f250689b4a-s.0-dom-5bn10r2.woff2",
+          "hash": "15010700856333334441"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/4f6667dd39116621-s.3p2_lha1f2xer.woff2",
+          "hash": "4251721274958578185"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/53897e768d329f66-s.p.3t6q91iet4nsy.woff2",
+          "hash": "15855278365595653108"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/605ce01b664af129-s.p.0wgildi0cnwt9.woff2",
+          "hash": "16024702059671493958"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/6131cbbf5549afa2-s.2uwcyprjm3xu3.woff2",
+          "hash": "932990173183815504"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/76b70a1dbe058eb5-s.1y4-pdgsjb-pw.woff2",
+          "hash": "7353764345010092729"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/77814b00d5ca94a4-s.21jp631_3pja2.woff2",
+          "hash": "6492193865456477419"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/954d21e04331b2ae-s.0vfdmo25voy_0.woff2",
+          "hash": "18321605536819432414"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/99a2019bdfa8519b-s.176arc174-8zp.woff2",
+          "hash": "9409292947887241411"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/ba63f6a0e436df8e-s.3-6t-g6q0vh0a.woff2",
+          "hash": "6250587600893442431"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/f58031ded4338640-s.390ncx5urfkfu.woff2",
+          "hash": "11558091837541162062"
+        },
+        {
+          "file": "apps/web/.next/dev/static/media/f9cd5a77d065db98-s.1fby2rem9ngyr.woff2",
+          "hash": "11563982689859684554"
+        },
+        {
           "file": "apps/web/.next/dev/trace",
-          "hash": "5649695420475290215"
+          "hash": "2746158485758182045"
         },
         {
           "file": "apps/web/.next/dev/types/cache-life.d.ts",
@@ -1149,6 +1567,10 @@
         {
           "file": "apps/web/.swcrc",
           "hash": "4532740859193830353"
+        },
+        {
+          "file": "apps/web/components.json",
+          "hash": "15923953798925169580"
         },
         {
           "file": "apps/web/eslint.config.mjs",
@@ -1179,15 +1601,23 @@
         },
         {
           "file": "apps/web/package.json",
-          "hash": "3437921964012581842",
+          "hash": "8558411859668287014",
           "deps": [
+            "npm:@base-ui/react",
             "npm:@tailwindcss/postcss",
             "npm:@tailwindcss/vite",
+            "npm:class-variance-authority",
+            "npm:cn",
+            "npm:lucide-react",
+            "npm:mongoose",
             "npm:next",
+            "npm:next-themes",
             "npm:postcss",
             "npm:react",
             "npm:react-dom",
-            "npm:tailwindcss"
+            "npm:shadcn",
+            "npm:tailwindcss",
+            "npm:tw-animate-css"
           ]
         },
         {
@@ -1216,11 +1646,14 @@
         },
         {
           "file": "apps/web/src/app/global.css",
-          "hash": "15101660731527346424"
+          "hash": "857546165465619160"
         },
         {
           "file": "apps/web/src/app/layout.tsx",
-          "hash": "10846898429554902883"
+          "hash": "16104976074258811182",
+          "deps": [
+            "npm:next"
+          ]
         },
         {
           "file": "apps/web/src/app/page.module.css",
@@ -1228,9 +1661,45 @@
         },
         {
           "file": "apps/web/src/app/page.tsx",
-          "hash": "13849722494071170909",
+          "hash": "8633810065662281015",
           "deps": [
             "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/components/toggle-mode-button.tsx",
+          "hash": "13432598769960749512",
+          "deps": [
+            "npm:react",
+            "npm:lucide-react",
+            "npm:next-themes"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/theme-provider.tsx",
+          "hash": "2621266382696631326",
+          "deps": [
+            "npm:react",
+            "npm:next-themes"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ui/button.tsx",
+          "hash": "16448321143020215769",
+          "deps": [
+            "npm:@base-ui/react",
+            "npm:class-variance-authority",
+            "npm:cn"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ui/dropdown-menu.tsx",
+          "hash": "4324131903623209923",
+          "deps": [
+            "npm:react",
+            "npm:@base-ui/react",
+            "npm:cn",
+            "npm:lucide-react"
           ]
         },
         {
@@ -1238,15 +1707,120 @@
           "hash": "338361496026722187"
         },
         {
+          "file": "apps/web/src/lib/utils.ts",
+          "hash": "1534106372998392845",
+          "deps": [
+            "npm:cn"
+          ]
+        },
+        {
           "file": "apps/web/tsconfig.json",
-          "hash": "8550793452588498082"
+          "hash": "16834721821545034982"
         },
         {
           "file": "apps/web/tsconfig.spec.json",
           "hash": "15963641842635655445"
         }
+      ],
+      "@nextjs-template/ui": [
+        {
+          "file": "packages/ui/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "packages/ui/README.md",
+          "hash": "6723120534749510390"
+        },
+        {
+          "file": "packages/ui/jest.config.cts",
+          "hash": "10057306125454633098"
+        },
+        {
+          "file": "packages/ui/package.json",
+          "hash": "16038175260508636502"
+        },
+        {
+          "file": "packages/ui/src/index.ts",
+          "hash": "14818093420450784594"
+        },
+        {
+          "file": "packages/ui/src/lib/feature-card.module.css",
+          "hash": "16685757780176175637"
+        },
+        {
+          "file": "packages/ui/src/lib/feature-card.tsx",
+          "hash": "14598822323776923462"
+        },
+        {
+          "file": "packages/ui/src/lib/hero-banner.module.css",
+          "hash": "4400488297637351700"
+        },
+        {
+          "file": "packages/ui/src/lib/hero-banner.tsx",
+          "hash": "362210248336871164"
+        },
+        {
+          "file": "packages/ui/src/lib/ui.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "packages/ui/src/lib/ui.spec.tsx",
+          "hash": "11775362572980081225",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "packages/ui/src/lib/ui.tsx",
+          "hash": "5392858560548558545"
+        },
+        {
+          "file": "packages/ui/tsconfig.json",
+          "hash": "1138660533399177677"
+        },
+        {
+          "file": "packages/ui/tsconfig.lib.json",
+          "hash": "4954703335201594126"
+        },
+        {
+          "file": "packages/ui/tsconfig.spec.json",
+          "hash": "5324642384920426034"
+        }
+      ],
+      "@nextjs-template/web-e2e": [
+        {
+          "file": "apps/web-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/package.json",
+          "hash": "18431296450906444081"
+        },
+        {
+          "file": "apps/web-e2e/playwright.config.mts",
+          "hash": "17226933003990807159",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/src/example.spec.ts",
+          "hash": "13779871506473034803",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/tsconfig.json",
+          "hash": "17253431543311312377"
+        }
       ]
     }
   },
-  "externalNodesHash": "6125054074378804091"
+  "externalNodesHash": "9429256607152460399"
 }

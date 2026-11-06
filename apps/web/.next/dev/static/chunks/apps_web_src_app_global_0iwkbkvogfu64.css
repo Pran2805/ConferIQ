@@ -18,19 +18,8 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-amber-100: #fef3c6;
-    --color-amber-900: #7b3306;
-    --color-black: #000;
-    --color-white: #fff;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-  }
-
-  @supports (color: lab(0% 0 0)) {
-    :root, :host {
-      --color-amber-100: lab(95.916% -1.21653 23.111);
-      --color-amber-900: lab(31.2288% 30.2627 40.0378);
-    }
   }
 }
 
@@ -285,22 +274,6 @@
 @layer utilities {
   .transform {
     transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
-  }
-
-  .bg-amber-100 {
-    background-color: var(--color-amber-100);
-  }
-
-  .bg-amber-900 {
-    background-color: var(--color-amber-900);
-  }
-
-  .bg-black {
-    background-color: var(--color-black);
-  }
-
-  .bg-white {
-    background-color: var(--color-white);
   }
 }
 
